@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=yLkXVAcci-edsKrVmE5Uq9bmvBxitzYozlnNT0xbnY25JRxnApNhT6hU98a5tyXf1YA7SoVcSuVWXmaXgIL2pyuA3VUIA_b5wz75nhHjYCIZ6kcdOQ3jrmFz7r9YSiRiDdJDl8CfqxK1JI3Nf8ojFQ" charset="UTF-8"></script><script>
+            document.addEventListener('DOMContentLoaded', () => {
+                console.log("DOM fully loaded and parsed");
+
+                if (window.innerWidth <= 768){
+                //navbar icons//
+
+                home = document.getElementById("home");
+                curriculo = document.getElementById("curriculo");
+                sobremim = document.getElementById("sobremim");
+                projetos = document.getElementById("projetos");
+                imghome = document.createElement("img");
+                    imghome.src = "/portfolio/images/home.svg";
+                    imghome.alt = "Home Icon";
+                    imghome.className = "nav-icon";
+                imgcurriculo = document.createElement("img");
+                    imgcurriculo.src = "/portfolio/images/curriculo.svg";
+                    imgcurriculo.alt = "Curriculo Icon";
+                    imgcurriculo.className = "nav-icon";
+                imgsobremim = document.createElement("img");
+                    imgsobremim.src = "/portfolio/images/sobremim.svg";
+                    imgsobremim.alt = "Sobremim Icon";
+                    imgsobremim.className = "nav-icon";
+                imgprojetos = document.createElement("img");
+                    imgprojetos.src = "/portfolio/images/projetos.svg";
+                    imgprojetos.alt = "Projetos Icon";
+                    imgprojetos.className = "nav-icon";
+                home.textContent = " ";
+                curriculo.textContent = " ";
+                sobremim.textContent = " ";
+                projetos.textContent = " ";
+                home.appendChild(imghome);
+                curriculo.appendChild(imgcurriculo);
+                sobremim.appendChild(imgsobremim);
+                projetos.appendChild(imgprojetos);
+
+                }
+
+                    //navbar icons end//
+
+
+                btn_curriculo = document.getElementById("btn_curriculo");
+                btn_sobremim = document.getElementById("btn_sobremim");
+                btn_projetos = document.getElementById("btn_projetos");
+                btn_zoopoke = document.getElementById("btn_zoopoke");
+                console.log(btn_curriculo);
+                btn_curriculo.addEventListener("click", function(){window.location.href = "curriculo.html";});
+                btn_sobremim.addEventListener("click", function(){window.location.href = "sobre-mim.html";});
+                btn_projetos.addEventListener("click", function(){window.location.href = "projetos.html";});
+                btn_zoopoke.addEventListener("click", function(){window.location.href = "curriculo.html";});
+            })
+
+
+
+
+        </script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+        <meta name="theme-color" content="#000000">
+        <title>Eduardo - Curriculo</title>
+    </head>
+    <body>
+        <div>
+            <div class="row">
+                <!--Coluna Esquerda-->
+                <div id ="col-esq" class="col">
+                    <div id = "box-sidebar" class= "container">
+                        <div class = "container-name mb-2">
+                            <div id = "titulo-sidebar">
+                                <h1 class ="titulo">Eduardo Carvalho</h1>
+                            </div>
+
+                        </div>
+                        <div id = "container-img" class = "container">
+                            <img alt ="Foto do dono do site (Eduardo)" class = "containerimg" src = "images/foto-sidebar.webp">
+                        </div>
+                        <div class = "container-name mt-3">
+                            <div class = "subtitulo-sidebar">
+                                <h4 class = "subtitulo">Especialidade:</h4>
+                            </div>
+                            <div class = "subtitulo-sidebar">
+                                <h2 class = "titulo3">Web Developer/Marketing Estrategist</h2>
+                            </div>
+                        </div>
+                        <div class = "container-name">
+                            <div class = "subtitulo-sidebar">
+                                <h4 class = "subtitulo">Foco:</h4>
+                            </div>
+                            <div class = "subtitulo-sidebar">
+                                <h2 class = "titulo3">Coding/ Empreendedorismo</h2>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <!--Coluna Direita-->
+                <div id= "col-dir" class="col-8">
+                    <!--Navbar-->
+                    <nav class = "navbar navbar-dark navbar-expand">
+                        <div id="navbar-container" class = "containernavbar">
+                            <ul class="navbar-nav me mb-2 mb-lg-0">
+                                <div class ="containernav">
+                                    <li class = "nav-item ">
+                                    <a id ="home" class ="nav-link active" aria-current = "page" href = "index.html"> Home </a>
+                                    </li>
+                                </div>
+                                <div class ="containernav">
+                                    <li class = "nav-item">
+                                    <a id ="curriculo" class ="nav-link " aria-current = "page" href = "curriculo.html"> Currículo </a>
+                                    </li>
+                                </div>
+                                <div class ="containernav">
+                                    <li class = "nav-item">
+                                    <a id ="sobremim" class ="nav-link" aria-current = "page" href = "sobre-mim.html"> Sobre Mim </a>
+                                    </li>
+                                </div>
+                                <div class ="containernav">
+                                    <li class = "nav-item ">
+                                    <a id ="projetos" class ="nav-link" aria-current = "page" href = "projetos.html"> Projetos </a>
+                                    </li>
+                                </div>
+                            </ul>
+
+                        </div>
+                    </nav>
+                    <!--FIM NAVBAR-->
+
+                    <div id = "container-h1" class ="containerp">
+
+
+                        <!-- ROW 1 -->
+                        <div class = "row gx-5 gy-5" style = "width: 100%;">
+                            <div class = "gradient-text">
+                                <h1 class ="titulo-g mb-5">Overview do Site</h1>
+                            </div>
+
+                            <!-- COL 1 -->
+                            <div class = "col-12 col-md-6">
+                                <div class = "container ps-4 py-4 content-box container-sameheight">
+                                    <div>
+                                        <h2 class = "titulo">Currículo</h2>
+                                    </div>
+                                    <div class = "content-minibox">
+                                        <h3 class = "subtitulo">Cursos/Educação</h3>
+                                    </div>
+                                    <div>
+                                        <p class = "paragrafo">Página que irá mostrar todos os cursos que eu já fiz e estou fazendo, em adição ao o Ensino Médio e Ensino Superior.</p>
+                                    </div>
+                                    <div>
+                                        <ol class = "lista">
+                                            <li>Cursos com: +250 horas;</li>
+                                            <li>Liguaguens: C, Python, SQL, HTML, CSS, JavaScript;</li>
+                                            <li>Cerficados válidos em todo o mundo;</li>
+                                        </ol>
+                                    </div>
+                                    <div class = "gradient-button-container">
+                                        <button id = "btn_curriculo" class = "gradient-button" type = "button">Currículo</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- COL 2 -->
+                            <div class = "col-12 col-md-6">
+                                <div class = "container ps-4 py-4 content-box container-sameheight">
+                                    <div>
+                                        <h2 class = "titulo">Sobre Mim</h2>
+                                    </div>
+                                    <div class = "content-minibox">
+                                        <h3 class = "subtitulo">História/Personalidade</h3>
+                                    </div>
+                                    <div>
+                                        <p class = "paragrafo">Página que contém um pouco da minha história e mostra quem sou eu de forma resumida.</p>
+                                    </div>
+                                    <div>
+                                        <ol class = "lista">
+                                            <li>Ética de Trabalho;</li>
+                                            <li>Personalidade;</li>
+                                        </ol>
+                                    </div>
+                                    <div class = "gradient-button-container">
+                                        <button id = "btn_sobremim" type = "button" class = "gradient-button">Sobre Mim</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- COL 3 -->
+                            <div class = "col-12 col-md-6">
+                                <div class = "container ps-4 py-4 content-box container-sameheight mb-4">
+                                    <div>
+                                        <h2 class = "titulo">Projetos</h2>
+                                    </div>
+                                    <div class = "content-minibox">
+                                        <h3 class = "subtitulo">Em cursos/No trabalho</h3>
+                                    </div>
+                                    <div>
+                                        <p class = "paragrafo">Essa página mostra projetos que fiz ou estou fazendo. Esses projetos são parte de cursos, projetos individuais ou projetos que fiz para clientes.</p>
+                                    </div>
+                                    <div>
+                                        <ol class = "lista">
+                                            <li>Site La Fleur, Nexa Mkt, O Gabinete - Barbearia;</li>
+                                            <li>Projetos de Data Structures em C com recursividade;</li>
+                                            <li>Projeto de Captive Portal em desenvolvimento;</li>
+                                        </ol>
+                                    </div>
+                                    <div class = "gradient-button-container">
+                                        <button id = "btn_projetos" class = "gradient-button" type = "button">Projetos</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- COL 4
+                            <div class = "col-12 col-md-6">
+                                <div class = "container ps-4 py-4 content-box container-sameheight">
+                                    <div>
+                                        <h2 class = "titulo">Zoológico - Pokemon</h2>
+                                    </div>
+                                    <div class = "content-minibox">
+                                        <h3 class = "subtitulo">Zoológico de ASCII</h3>
+                                    </div>
+                                    <div>
+                                        <p class = "paragrafo">Essa página contém os animais mais exóticos do mundo pokemon.</p>
+                                    </div>
+                                    <div>
+                                        <ol class = "lista">
+                                            <li>Gengar;</li>
+                                            <li>Ho-oh;</li>
+                                            <li>Rayquaza;</li>
+                                        </ol>
+                                    </div>
+                                    <div class = "gradient-button-container">
+                                        <button id = "btn_zoopoke" class = "gradient-button" type = "button">Zoologico Pokemon</button>
+                                    </div>
+                                </div>
+                            </div>
+                            -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+
+

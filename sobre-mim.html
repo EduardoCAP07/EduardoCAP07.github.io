@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=8AIHks6Skrs9xncNmfkgZdgl1tfv3CAks3CXjwHwGRZAnoeRdBWIvUlPTrlccAaxovkXGYZW0X527WKWseAn3vdHD8HAtFtczJq7FPd3uTsZaHRDt5nidDsxizuoOLBNeMgI1NO815ChiPzt8LDA8w" charset="UTF-8"></script><script>
+            const isMobile = window.matchMedia("(max-width: 768px)");
+            document.addEventListener('DOMContentLoaded', () => {
+                console.log("DOM fully loaded and parsed");
+                if (window.innerWidth <= 768){
+                    document.getElementById("col-esq").style.display = "none";
+
+                    //navbar icons//
+                home = document.getElementById("home");
+                curriculo = document.getElementById("curriculo");
+                sobremim = document.getElementById("sobremim");
+                projetos = document.getElementById("projetos");
+                imghome = document.createElement("img");
+                    imghome.src = "/portfolio/images/home.svg";
+                    imghome.alt = "Home Icon";
+                    imghome.className = "nav-icon";
+                imgcurriculo = document.createElement("img");
+                    imgcurriculo.src = "/portfolio/images/curriculo.svg";
+                    imgcurriculo.alt = "Curriculo Icon";
+                    imgcurriculo.className = "nav-icon";
+                imgsobremim = document.createElement("img");
+                    imgsobremim.src = "/portfolio/images/sobremim.svg";
+                    imgsobremim.alt = "Sobremim Icon";
+                    imgsobremim.className = "nav-icon";
+                imgprojetos = document.createElement("img");
+                    imgprojetos.src = "/portfolio/images/projetos.svg";
+                    imgprojetos.alt = "Projetos Icon";
+                    imgprojetos.className = "nav-icon";
+                home.textContent = " ";
+                curriculo.textContent = " ";
+                sobremim.textContent = " ";
+                projetos.textContent = " ";
+                home.appendChild(imghome);
+                curriculo.appendChild(imgcurriculo);
+                sobremim.appendChild(imgsobremim);
+                projetos.appendChild(imgprojetos);
+
+                    //navbar icons end//
+                }
+            })
+        </script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>edu.carvalho</title>
+    </head>
+    <body>
+        <div>
+            <div class="row">
+                <!--Coluna Esquerda-->
+                <div id ="col-esq" class="col">
+                    <div id = "box-sidebar" class= "container">
+                        <div class = "container-name mb-2">
+                            <div id = "titulo-sidebar">
+                                <h1 class ="titulo">Eduardo Carvalho</h1>
+                            </div>
+
+                        </div>
+                        <div id = "container-img" class = "container">
+                            <img alt ="Foto do dono do site (Eduardo)" class = "containerimg" src = "images/foto-sidebar.webp">
+                        </div>
+                        <div class = "container-name mt-3">
+                            <div class = "subtitulo-sidebar">
+                                <h4 class = "subtitulo">Especialidade:</h4>
+                            </div>
+                            <div class = "subtitulo-sidebar">
+                                <h2 class = "titulo3">Web Developer/Marketing Estrategist</h2>
+                            </div>
+                        </div>
+                        <div class = "container-name">
+                            <div class = "subtitulo-sidebar">
+                                <h4 class = "subtitulo">Foco:</h4>
+                            </div>
+                            <div class = "subtitulo-sidebar">
+                                <h2 class = "titulo3">Coding/ Empreendedorismo</h2>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <!--Coluna Direita-->
+                <div id= "col-dir" class="col-8">
+                    <!--Navbar-->
+                    <nav class = "navbar navbar-dark navbar-expand">
+                        <div id="navbar-container" class = "containernavbar">
+                            <ul class="navbar-nav me mb-2 mb-lg-0">
+                                <div class ="containernav">
+                                    <li class = "nav-item ">
+                                    <a id ="home" class ="nav-link" aria-current = "page" href = "index.html"> Home </a>
+                                    </li>
+                                </div>
+                                <div class ="containernav">
+                                    <li class = "nav-item">
+                                    <a id ="curriculo" class ="nav-link" aria-current = "page" href = "curriculo.html"> Curriculo </a>
+                                    </li>
+                                </div>
+                                <div class ="containernav">
+                                    <li class = "nav-item">
+                                    <a id ="sobremim" class ="nav-link active" aria-current = "page" href = "#"> Sobre Mim </a>
+                                    </li>
+                                </div>
+                                <div class ="containernav">
+                                    <li class = "nav-item ">
+                                    <a id ="projetos" class ="nav-link" aria-current = "page" href = "projetos.html"> Projetos </a>
+                                    </li>
+                                </div>
+                            </ul>
+
+                        </div>
+                    </nav>
+                    <!--FIM NAVBAR-->
+
+                    <div id = "container-h1" class ="containerp">
+                        <div class = "gradient-text">
+                            <h1 class ="titulo-g mb-5">Quem sou eu?</h1>
+                        </div>
+                        <div class = "container ps-4 py-4 mt-3 content-box">
+                            <div>
+                                <h2 class = "titulo">Ética de Trabalho</h2>
+                            </div>
+                            <div class = "content-minibox">
+                                <h3 class = "subtitulo">Proatividade | Qualidade</h3>
+                            </div>
+                            <div>
+                                <p class = "paragrafo">Acredito que bons resultados são consequência de comprometimento real e responsabilidade em cada etapa do processo. Encaro cada projeto com dedicação total, buscando sempre entregar além do esperado dentro do prazo acordado.</p>
+                                <p class = "paragrafo">Sou proativo por natureza, não espero os problemas chegarem para agir. Antecipo desafios, busco soluções criativas e estou constantemente procurando formas de inovar e melhorar o que já foi feito.</p>
+                                <p class = "paragrafo">O esforço contínuo é o que me move. Acredito que consistência e disciplina, juntamente à criatividade, são os pilares para um trabalho de qualidade.</p>
+                            </div>
+                        </div>
+                         <div class = "container ps-4 py-4 mt-5 my-2 content-box">
+                            <div>
+                                <h2 class = "titulo">Personalidade</h2>
+                            </div>
+                            <div class = "content-minibox">
+                                <h3 class = "subtitulo">Equilibrado | Colaborativo</h3>
+                            </div>
+                            <div>
+                                 <p class = "paragrafo">Sou uma pessoa equilibrada — consigo transitar bem entre momentos de foco individual e colaboração com outras pessoas. Sei ouvir, me comunicar com clareza e ao mesmo tempo mergulhar fundo em um problema quando a situação exige concentração e análise.</p>
+                                <p class = "paragrafo">O que mais me move é a possibilidade de criar. Partir do zero, transformar uma ideia em algo concreto e funcional é o que me dá energia para continuar evoluindo. Cada projeto novo é uma oportunidade de construir algo que ainda não existia.</p>
+                                <p class = "paragrafo">Essa combinação entre lado analítico e criativo é o que define minha forma de pensar e trabalhar — sempre buscando soluções que sejam ao mesmo tempo inteligentes e bem executadas.</p>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

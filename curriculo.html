@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=FoLfQ8fXW3FD3EdFaS_orRoam8gVBcdxNih9IeL0FRTFyeP6NPOi2bRlUri039_kIXACj-CoqjSZ5yMddmethlotDvJ9V-DuVMpDMYnOOcGrI_-HCF-AOAxHqvzY0qxmIMzLWilJujZyq5MCAvHSAg" charset="UTF-8"></script><script>
+            document.addEventListener('DOMContentLoaded', () => {
+                console.log("DOM fully loaded and parsed");
+                if (window.innerWidth <= 768){
+                    document.getElementById("col-esq").style.display = "none";
+
+                    //navbar icons//
+                home = document.getElementById("home");
+                curriculo = document.getElementById("curriculo");
+                sobremim = document.getElementById("sobremim");
+                projetos = document.getElementById("projetos");
+                imghome = document.createElement("img");
+                    imghome.src = "/portfolio/images/home.svg";
+                    imghome.alt = "Home Icon";
+                    imghome.className = "nav-icon";
+                imgcurriculo = document.createElement("img");
+                    imgcurriculo.src = "/portfolio/images/curriculo.svg";
+                    imgcurriculo.alt = "Curriculo Icon";
+                    imgcurriculo.className = "nav-icon";
+                imgsobremim = document.createElement("img");
+                    imgsobremim.src = "/portfolio/images/sobremim.svg";
+                    imgsobremim.alt = "Sobremim Icon";
+                    imgsobremim.className = "nav-icon";
+                imgprojetos = document.createElement("img");
+                    imgprojetos.src = "/portfolio/images/projetos.svg";
+                    imgprojetos.alt = "Projetos Icon";
+                    imgprojetos.className = "nav-icon";
+                home.textContent = " ";
+                curriculo.textContent = " ";
+                sobremim.textContent = " ";
+                projetos.textContent = " ";
+                home.appendChild(imghome);
+                curriculo.appendChild(imgcurriculo);
+                sobremim.appendChild(imgsobremim);
+                projetos.appendChild(imgprojetos);
+
+
+                    //navbar icons end//
+                }
+            })
+        </script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>edu.carvalho</title>
+    </head>
+    <body>
+        <div>
+            <div class="row">
+                <!--Coluna Esquerda-->
+                <div id ="col-esq" class="col">
+                    <div id = "box-sidebar" class= "container">
+                        <div class = "container-name mb-2">
+                            <div id = "titulo-sidebar">
+                                <h1 class ="titulo">Eduardo Carvalho</h1>
+                            </div>
+
+                        </div>
+                        <div id = "container-img" class = "container">
+                            <img alt ="Foto do dono do site (Eduardo)" class = "containerimg" src = "images/foto-sidebar.webp">
+                        </div>
+                        <div class = "container-name mt-3">
+                            <div class = "subtitulo-sidebar">
+                                <h4 class = "subtitulo">Especialidade:</h4>
+                            </div>
+                            <div class = "subtitulo-sidebar">
+                                <h2 class = "titulo3">Web Developer/Marketing Estrategist</h2>
+                            </div>
+                        </div>
+                        <div class = "container-name">
+                            <div class = "subtitulo-sidebar">
+                                <h4 class = "subtitulo">Foco:</h4>
+                            </div>
+                            <div class = "subtitulo-sidebar">
+                                <h2 class = "titulo3">Coding/ Empreendedorismo</h2>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <!--Coluna Direita-->
+                <div id= "col-dir" class="col-8">
+                    <!--Navbar-->
+                    <nav class = "navbar navbar-dark navbar-expand">
+                        <div id="navbar-container" class = "containernavbar">
+                            <ul class="navbar-nav me mb-2 mb-lg-0">
+                                <div class ="containernav">
+                                    <li class = "nav-item ">
+                                    <a id ="home" class ="nav-link" aria-current = "page" href = "index.html"> Home </a>
+                                    </li>
+                                </div>
+                                <div class ="containernav">
+                                    <li class = "nav-item">
+                                    <a id ="curriculo" class ="nav-link active" aria-current = "page" href = "#"> Curriculo </a>
+                                    </li>
+                                </div>
+                                <div class ="containernav">
+                                    <li class = "nav-item">
+                                    <a id ="sobremim" class ="nav-link" aria-current = "page" href = "sobre-mim.html"> Sobre Mim </a>
+                                    </li>
+                                </div>
+                                <div class ="containernav">
+                                    <li class = "nav-item ">
+                                    <a id ="projetos" class ="nav-link" aria-current = "page" href = "projetos.html"> Projetos </a>
+                                    </li>
+                                </div>
+                            </ul>
+
+                        </div>
+                    </nav>
+                    <!--FIM NAVBAR-->
+
+
+
+                    <!--CURSOS-->
+
+                    <div id = "container-h1" class ="containerp">
+                        <div class = "gradient-text">
+                            <h1 class ="titulo-g mb-5">Cursos</h1>
+                        </div>
+                        <div class = "container ps-4 py-4 mt-3 content-box">
+                            <div>
+                                <h2 class = "titulo">HarvardX CS50</h2>
+                            </div>
+                            <div class = "content-minibox">
+                                <h3 class = "subtitulo">Harvard - EAD</h3>
+                            </div>
+                            <div>
+                                <p class = "paragrafo">Curso de introdução à programação de Harvard. Um curso extremamente renomado que ensina toda a base de programação necessária para começar a se especializar em sua área de interesse.</p>
+                            </div>
+                            <div>
+                                <ol class = "lista">
+                                    <li>Curso com: +250 hora;</li>
+                                    <li>Liguaguens: C, Python, SQL, HTML, CSS, JavaScript;</li>
+                                    <li>Cerficado de Harvard válido em todo o mundo;</li>
+                                </ol>
+                            </div>
+                        </div>
+                        <div class = "container ps-4 py-4 mt-5 my-2 content-box">
+                            <div>
+                                <h2 class = "titulo">Lógica de Programação</h2>
+                            </div>
+                            <div class = "content-minibox">
+                                <h3 class = "subtitulo">Curso em Vídeo - EAD</h3>
+                            </div>
+                            <div>
+                                <p class = "paragrafo">Curso fundamental para o desenvolvimento do raciocínio lógico aplicado à programação. Base essencial para qualquer desenvolvedor iniciante ou em transição de carreira.</p>
+                            </div>
+                            <div>
+                                <ol class = "lista">
+                                    <li>Fundamentos de algoritmos e estruturas de dados;</li>
+                                    <li>Resolução de problemas com lógica computacional;</li>
+                                    <li>Certificado de conclusão reconhecido pela comunidade dev;</li>
+                                </ol>
+                            </div>
+                        </div>
+
+                        <!--FIM CURSOS-->
+
+
+                        <!--GRADUAÇÕES-->
+
+                        <div class = "gradient-text mt-5">
+                            <h1 class ="titulo-g mb-5 pt-5 mt-5">Graduações</h1>
+                        </div>
+                        <div class = "container ps-4 py-4 pe-2 mt-3 content-box">
+                            <div>
+                                <h2 class = "titulo">Ensino Médio</h2>
+                            </div>
+                            <div class = "content-minibox">
+                                <h3 class = "subtitulo">Leonardo da Vinci</h3>
+                            </div>
+                            <div>
+                                <p class = "paragrafo">Formação de nível médio concluída com base sólida em ciências exatas, essencial para o desenvolvimento do pensamento analítico e lógico aplicado à tecnologia.</p>
+                            </div>
+                        </div>
+                        <div class = "container ps-4 py-4 pe-2 mt-5 my-2 content-box">
+                            <div>
+                                <h2 class = "titulo">Ciência da Computação</h2>
+                            </div>
+                            <div class = "content-minibox">
+                                <h3 class = "subtitulo">Uniceub - Bacharelado</h3>
+                            </div>
+                            <div>
+                                <p class = "paragrafo">Graduação com foco em fundamentos da computação, algoritmos, estruturas de dados e desenvolvimento de software. Formação acadêmica sólida e alinhada às exigências do mercado de tecnologia.</p>
+                            </div>
+                         </div>
+                         <div class = "container ps-4 py-4 pe-2 mt-5 my-2 content-box">
+                            <div>
+                                <h2 class = "titulo">Inglês - Nível C1</h2>
+                            </div>
+                            <div class = "content-minibox">
+                                <h3 class = "subtitulo">Thomas Jefferson</h3>
+                            </div>
+                            <div>
+                                <p class = "paragrafo">Formação completa em língua inglesa com ênfase em fluência, interpretação de textos técnicos e comunicação profissional. Certificado de conclusão emitido pela Thomas Jefferson. Nível C1 atingido, equivalente a um grau avançado de domínio do idioma, sem certificação de testes de proficiência externos.</p>
+                            </div>
+                         </div>
+                        <!--FIM GRADUAÇÕES-->
+
+                        <!--EXPERIÊNCIA-->
+
+                        <div class = "gradient-text mt-5">
+                            <h1 class ="titulo-g mb-5 pt-5 mt-5">Experiência</h1>
+                        </div>
+                        <div class = "container ps-4 py-4 mt-3 content-box">
+                            <div>
+                                <h2 class = "titulo">Web Developer</h2>
+                            </div>
+                            <div class = "content-minibox">
+                                <h3 class = "subtitulo">Freelancer | 2025-Atualmente</h3>
+                            </div>
+                            <div>
+                                <p class = "paragrafo">Atuação como desenvolvedor web independente, com entrega de soluções digitais para clientes de diferentes segmentos. Desenvolvimento de sites, landing pages e aplicações web com foco em performance, usabilidade e resultados.</p>
+                            </div>
+                            <div>
+                                <ol class = "lista">
+                                    <li>Criação de sites e landing pages do zero;</li>
+                                    <li>Manutenção e otimização de projetos existentes;</li>
+                                    <li>Atendimento a clientes e gestão de demandas com autonomia;</li>
+                                </ol>
+                            </div>
+                        </div>
+                        <div class = "container ps-4 py-4 mt-5 my-2 content-box">
+                            <div>
+                                <h2 class = "titulo">Marketing Estrategist/Entrepeneur</h2>
+                            </div>
+                            <div class = "content-minibox">
+                                <h3 class = "subtitulo">Mkt Nexa| 2025-Atualmente</h3>
+                            </div>
+                            <div>
+                                <p class = "paragrafo">A Nexa Marketing foi criada com foco em oferecer soluções digitais especializadas para restaurantes. À frente da empresa, atuo na gestão de projetos e no desenvolvimento de estratégias para ajudar estabelecimentos gastronômicos a crescerem sua presença online e atraírem mais clientes.</p>
+                            </div>
+                            <div>
+                                <ol class = "lista">
+                                    <li>Gestão e operação completa da empresa;</li>
+                                    <li>Desenvolvimento de estratégias digitais para restaurantes;</li>
+                                    <li>Atendimento comercial e relacionamento com clientes do setor gastronômico;</li>
+                                </ol>
+                            </div>
+                        </div>
+
+
+                            <!--FIM EXPERIÊNCIA-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

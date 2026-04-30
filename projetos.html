@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=mhLB57FnEO181b1jcK5RuJ4XfW-dFkTiV0ewr5yiub1yGNPWzOsHywdoBX8WNFLbs1HoLs6jOaVWS0ORKQtpMgF5AJxlqq4EVjKz0nNbY9kmW6xA5wrNnlX3EHLX5YQgaa7aQEUE5I94f1CyEOt2Pw" charset="UTF-8"></script><script>
+            //wait for all html to load//
+            document.addEventListener('DOMContentLoaded', () => {
+                console.log("DOM fully loaded and parsed");
+                //check if media is mobile//
+                if (window.innerWidth <= 768){
+                    document.getElementById("col-esq").style.display = "none";
+
+                    //navbar icons//
+                home = document.getElementById("home");
+                curriculo = document.getElementById("curriculo");
+                sobremim = document.getElementById("sobremim");
+                projetos = document.getElementById("projetos");
+                imghome = document.createElement("img");
+                    imghome.src = "/portfolio/images/home.svg";
+                    imghome.alt = "Home Icon";
+                    imghome.className = "nav-icon";
+                imgcurriculo = document.createElement("img");
+                    imgcurriculo.src = "/portfolio/images/curriculo.svg";
+                    imgcurriculo.alt = "Curriculo Icon";
+                    imgcurriculo.className = "nav-icon";
+                imgsobremim = document.createElement("img");
+                    imgsobremim.src = "/portfolio/images/sobremim.svg";
+                    imgsobremim.alt = "Sobremim Icon";
+                    imgsobremim.className = "nav-icon";
+                imgprojetos = document.createElement("img");
+                    imgprojetos.src = "/portfolio/images/projetos.svg";
+                    imgprojetos.alt = "Projetos Icon";
+                    imgprojetos.className = "nav-icon";
+                home.textContent = " ";
+                curriculo.textContent = " ";
+                sobremim.textContent = " ";
+                projetos.textContent = " ";
+                home.appendChild(imghome);
+                curriculo.appendChild(imgcurriculo);
+                sobremim.appendChild(imgsobremim);
+                projetos.appendChild(imgprojetos);
+
+                    //navbar icons end//
+                }
+                btn_nexa = document.getElementById("btn_nexa");
+                btn_ogabinete = document.getElementById("btn_ogabinete");
+                btn_portal = document.getElementById("btn_portal");
+                btn_lafleur = document.getElementById("btn_lafleur");
+                btn_nexa.addEventListener("click", function(){window.open("https://www.mktnexa.com", "_blank");});
+                btn_ogabinete.addEventListener("click", function(){window.open("https://www.mktnexa.com/demos/demo-ogabinete/", "_blank");});
+                btn_portal.addEventListener("click", function(){window.open("https://wifi.lafleurbistro.com.br/", "_blank");});
+                btn_lafleur.addEventListener("click", function(){window.open("https://www.lafleurbistro.com.br/", "_blank");});
+
+            })
+
+
+
+
+        </script>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>edu.carvalho</title>
+    </head>
+    <body>
+        <div>
+            <div class="row">
+                <!--Coluna Esquerda-->
+                <div id ="col-esq" class="col">
+                    <div id = "box-sidebar" class= "container">
+                        <div class = "container-name mb-2">
+                            <div id = "titulo-sidebar">
+                                <h1 class ="titulo">Eduardo Carvalho</h1>
+                            </div>
+
+                        </div>
+                        <div id = "container-img" class = "container">
+                            <img alt ="Foto do dono do site (Eduardo)" class = "containerimg" src = "images/foto-sidebar.webp">
+                        </div>
+                        <div class = "container-name mt-3">
+                            <div class = "subtitulo-sidebar">
+                                <h4 class = "subtitulo">Especialidade:</h4>
+                            </div>
+                            <div class = "subtitulo-sidebar">
+                                <h2 class = "titulo3">Web Developer/Marketing Estrategist</h2>
+                            </div>
+                        </div>
+                        <div class = "container-name">
+                            <div class = "subtitulo-sidebar">
+                                <h4 class = "subtitulo">Foco:</h4>
+                            </div>
+                            <div class = "subtitulo-sidebar">
+                                <h2 class = "titulo3">Coding/ Empreendedorismo</h2>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <!--Coluna Direita-->
+                <div id= "col-dir" class="col-8">
+                    <!--Navbar-->
+                    <nav class = "navbar navbar-dark navbar-expand">
+                        <div id="navbar-container" class = "containernavbar">
+                            <ul class="navbar-nav me mb-2 mb-lg-0">
+                                <div class ="containernav">
+                                    <li class = "nav-item ">
+                                    <a id ="home" class ="nav-link" aria-current = "page" href = "index.html"> Home </a>
+                                    </li>
+                                </div>
+                                <div class ="containernav">
+                                    <li class = "nav-item">
+                                    <a id ="curriculo" class ="nav-link" aria-current = "page" href = "curriculo.html"> Curriculo </a>
+                                    </li>
+                                </div>
+                                <div class ="containernav">
+                                    <li class = "nav-item">
+                                    <a id ="sobremim" class ="nav-link" aria-current = "page" href = "sobre-mim.html"> Sobre Mim </a>
+                                    </li>
+                                </div>
+                                <div class ="containernav">
+                                    <li class = "nav-item ">
+                                    <a id ="projetos" class ="nav-link active" aria-current = "page" href = "projetos.html"> Projetos </a>
+                                    </li>
+                                </div>
+                            </ul>
+
+                        </div>
+                    </nav>
+                    <!--FIM NAVBAR-->
+
+                    <div id = "container-h1" class ="containerp">
+                        <div class = "gradient-text">
+                            <h1 class ="titulo-g mb-5">Projetos Desenvolvidos</h1>
+                        </div>
+                        <div class = "container ps-4 py-4 mt-3 content-box">
+                            <div>
+                                <h2 class = "titulo">La Fleur Bistrô - Site</h2>
+                            </div>
+                            <div class = "content-minibox">
+                                <h3 class = "subtitulo">Full Stack</h3>
+                            </div>
+                            <div>
+                                <p class = "paragrafo">Site institucional desenvolvido para o La Fleur Bistrô, restaurante sofisticado com foco em proporcionar uma experiência visual elegante e alinhada à identidade da marca. O projeto foi construído com Webflow aliado a customizações em HTML, CSS e JavaScript para maior controle do resultado final.</p>
+                            </div>
+                            <div>
+                                <ol class = "lista mb-4">
+                                    <li>Design sofisticado e alinhado à identidade visual do restaurante;</li>
+                                    <li>Layout responsivo para desktop e mobile;</li>
+                                    <li>Integração com Google Analytics + Meta/Google Ads</li>
+                                </ol>
+                            </div>
+                            <div class = "gradient-button-container mt-3">
+                                <button id = "btn_lafleur" class = "gradient-button" type = "button">Ver Site</button>
+                            </div>
+                        </div>
+                        <div class = "gradient-text mt-5 pt-5">
+                            <h1 class ="titulo-g mt-5 mb-5">Projetos em Desenvolvimento</h1>
+                        </div>
+                        <div class = "container ps-4 py-4 mt-5 my-2 content-box">
+                            <div>
+                                <h2 class = "titulo">Nexa Mkt - Site</h2>
+                            </div>
+                            <div class = "content-minibox">
+                                <h3 class = "subtitulo">Full Stack</h3>
+                            </div>
+                            <div>
+                                <p class = "paragrafo">Site institucional da própria Nexa Marketing, desenvolvido para apresentar os serviços oferecidos pela empresa e converter visitantes em clientes. Projeto construído com foco em clareza, identidade visual forte e performance.</p>
+                            </div>
+                            <div>
+                                <ol class = "lista mb-4">
+                                    <li>Apresentação clara dos serviços e diferenciais da empresa;</li>
+                                    <li>Layout moderno e responsivo;</li>
+                                    <li>Perfomance e Rapidez;</li>
+                                </ol>
+                            </div>
+                            <div class = "gradient-button-container mt-3">
+                                <button id = "btn_nexa" class = "gradient-button" type = "button">Ver Site</button>
+                            </div>
+                        </div>
+                        <div class = "container ps-4 py-4 mt-5 my-2 content-box">
+                            <div>
+                                <h2 class = "titulo">O Gabinete Barbearia - Site</h2>
+                            </div>
+                            <div class = "content-minibox">
+                                <h3 class = "subtitulo">Full Stack</h3>
+                            </div>
+                            <div>
+                                <p class = "paragrafo">Site desenvolvido para a Barbearia O Gabinete, com foco em transmitir a identidade e o estilo único do estabelecimento. Projeto construído para apresentar os serviços, equipe e facilitar o contato com os clientes.</p>
+                            </div>
+                            <div>
+                                <ol class = "lista mb-4">
+                                    <li>Design alinhado à identidade visual da barbearia;</li>
+                                    <li>Layout responsivo e otimizado para mobile;</li>
+                                    <li>Seções de serviços e informações de contato;</li>
+                                </ol>
+                            </div>
+                            <div class = "gradient-button-container mt-3">
+                                <button id = "btn_ogabinete" class = "gradient-button" type = "button">Ver Site</button>
+                            </div>
+                        </div>
+                         <div class = "container ps-4 py-4 mt-5 my-2 content-box mb-5">
+                            <div>
+                                <h2 class = "titulo">Captive Portal - La Fleur</h2>
+                            </div>
+                            <div class = "content-minibox">
+                                <h3 class = "subtitulo">HTML | CSS | JS | PHP | Linux</h3>
+                            </div>
+                            <div>
+                                <p class = "paragrafo">Portal desenvolvido exclusivamente para os clientes do La Fleur Bistrô, criando um ambiente digital dedicado ao relacionamento e fidelização. Construído com PHP no back-end, garantindo funcionalidades dinâmicas e uma experiência exclusiva e personalizada para o público do restaurante.</p>
+                            </div>
+                            <div>
+                                <ol class = "lista mb-4">
+                                    <li>Plataforma exclusiva para clientes do La Fleur Bistrô;</li>
+                                    <li>Back-end dinâmico desenvolvido em PHP;</li>
+                                    <li>Interface intuitiva e alinhada à identidade da marca;</li>
+                                </ol>
+                            </div>
+                            <div class = "gradient-button-container mt-3">
+                                <button id = "btn_portal" class = "gradient-button" type = "button">Ver Demo</button>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
